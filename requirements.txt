@@ -1,0 +1,13 @@
+# Install PyTorch with CUDA 12.8 support FIRST (via pip3 command separately)
+# Run: pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+
+# Then install these:
+transformers>=4.35.0
+datasets>=2.14.0
+pillow>=10.0.0
+peft>=0.7.0
+bitsandbytes>=0.41.0
+accelerate>=0.24.0
+pyyaml>=6.0
+tqdm>=4.66.0
+numpy>=1.24.0
